@@ -6,6 +6,7 @@ CMD_TO_FUNCTION = {
     'uniques': functions.unique_query,
     'sort': functions.sort_query,
     'limit': functions.limit_query,
+    'regex': functions.regex_query,
 }
 FILE_NAME = 'data/apache_logs.txt'
 

@@ -6,7 +6,8 @@ VALID_CMD_PARAMS =(
     'sort',
     'map',
     'unique',
-    'limit'
+    'limit',
+    'regex',
 )
 
 
