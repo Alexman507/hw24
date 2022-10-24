@@ -1,4 +1,5 @@
 import re
+from typing import Any
 
 
 def filter_query(param: str, data: list[str]) -> list[str]:
