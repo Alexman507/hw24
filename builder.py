@@ -1,4 +1,4 @@
-import functions
+from hw24 import functions
 from typing import Dict, Callable, Optional, List
 
 CMD_TO_FUNCTION: Dict[str, Callable] = {

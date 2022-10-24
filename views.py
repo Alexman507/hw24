@@ -1,8 +1,8 @@
 from flask import Blueprint, request, jsonify
 from marshmallow import ValidationError
 
-from builder import build_query
-from models import BatchRequestParams
+from hw24.builder import build_query
+from hw24.models import BatchRequestParams
 
 main_bp = Blueprint('main', __name__)
 

@@ -1,5 +1,5 @@
 from flask import Flask
-from views import main_bp
+from hw24.views import main_bp
 
 
 def create_app():
